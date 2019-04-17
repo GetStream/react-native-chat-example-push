@@ -11,3 +11,5 @@ dist
 /docs/
 /.git/
 .expo/
+/.vscode/
+metro.config.js
