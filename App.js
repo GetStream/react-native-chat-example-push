@@ -7,7 +7,7 @@
  */
 
 import React, { Component } from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View, ushNotificationIOS } from "react-native";
 import PushNotification from "react-native-push-notification";
 import { StreamChat } from "stream-chat";
 import { API_KEY, USER_TOKEN, USER_ID } from "react-native-dotenv";
