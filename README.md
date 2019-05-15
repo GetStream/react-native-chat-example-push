@@ -1,5 +1,7 @@
 # Stream React Native Push Test App
 
+[Chat Example Push][7] is a React Native test application that integrates with [Stream Chat][6] and allows you to test the push notification configs for your chat apps. You can read more about how to configure your app for push notifications [here][5].
+
 ## Setup
 
 1. Install deps:
@@ -35,8 +37,16 @@
 1. Run the test app on your desired device
 2. Use `getstream-cli` to [send out test push notifications][4]. Make sure the `user_id` used in the `.env` file and the one used in the cli match.
 
+## Copyright and License Information
+
+Copyright (c) 2015-2019 Stream.io Inc, and individual contributors. All rights reserved.
+
+See the file "LICENSE" for information on the history of this software, terms & conditions for usage, and a DISCLAIMER OF ALL WARRANTIES.
+
 [1]: https://getstream.io/chat/docs/#rn_push_initial
 [2]: https://firebase.google.com/docs/cloud-messaging/
 [3]: https://getstream.io/chat/docs/#chat-doc-rn-ios-run
 [4]: https://getstream.io/chat/docs/#push_test
 [5]: https://getstream.io/chat/docs/#push_ios
+[6]: https://getstream.io/chat
+[7]: https://github.com/GetStream/react-native-chat-example-push
