@@ -23,7 +23,7 @@ export default class App extends Component {
         client
           .addDevice(token.token, token.os === 'ios' ? 'apn' : 'firebase')
           .then(() => {
-            console.log(`registered device with token ${token}`);
+            console.log(`registered device with token ${token.token}`);
           })
           .catch((e) => {
             console.error(`registering device failed: ${e}`);
